@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.901">
+    <testcase classname="Title of your feature" name="the Authorized user can Add and Remove a book." time="0.326">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am an authorized user...............................................undefined
+Given A list of books are available.........................................skipped
+When I add a book to my reading list........................................skipped
+Then the book is added......................................................skipped
+When I remove a book from my reading list...................................skipped
+Then the book is removed....................................................skipped
+]]></failure>
+    </testcase>
+</testsuite>
