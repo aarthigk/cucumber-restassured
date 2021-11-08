@@ -12,6 +12,7 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import junit.framework.Assert;
 
+@SuppressWarnings("deprecation")
 public class StepDefinition {
 	
 	

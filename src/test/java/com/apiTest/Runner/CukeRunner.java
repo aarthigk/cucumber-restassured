@@ -7,8 +7,15 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "Features/TestOne.feature",
-        glue ="com.apiTest.ApiTest"
+	
+        plugin = {"pretty",
+                "html:target/report/cucumber.html",
+                "json:target/report/cucumber.json"
+        },
+        features = {"features"},
+       glue = {"com.apiTest.ApiTest"}
+       
 )
+
 public class CukeRunner {
 }

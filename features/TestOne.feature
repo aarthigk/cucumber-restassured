@@ -16,5 +16,5 @@ Feature: Title of your feature
 
     When I remove a book from my reading list
 
-    Then the book is removed
+  #  Then the book is removed
  
